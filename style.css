@@ -1,0 +1,349 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.page_1{
+    background-color: #F7F7F7;
+    height: 1368px ;
+}
+
+a{
+    text-decoration: none; 
+}
+
+.header{
+    position: relative;
+    background-color: #ffffff;
+    height: 100px;
+    box-shadow: 0px 3px 30px #7B7B7B29;
+}
+
+.header .top{
+    font: bold 40px/49px Inter;
+    position: absolute;
+    top: 23px;
+    left: 150px;
+}
+
+.header .top #right{
+    color: #424242;
+}
+.header .top #left{
+    color: #00A5EC;
+}
+
+.add_new{
+    display: flex;
+    position: absolute;
+    right: 250px;
+    top: 130px;
+    width: 215px;
+    height: 50px;
+}
+
+.icon{
+    border-radius: 50%;
+    background-color: #00A5EC;
+    font-size: 50px;
+    color: #ffffff;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 1;
+}
+
+.add_task{
+    align-self: center;
+    padding-left: 15px;
+    font: 22px Inter,serif;
+    color: #424242;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    height: 775px;
+    /* width: 1087px; */
+    margin-top: 126px;
+    margin-left: 150px; 
+}
+
+.content .box{
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 352px;
+    height: 360px;
+    margin-right: 25px;
+}
+.content .box:hover{
+    box-shadow: 0 0 5px 10px #EDEDED;
+}
+
+.box .title{
+    font: 20px/24px Inter,serif;
+    color: #00A5EC;
+    padding: 34px 30px;
+    border-bottom: 1px solid #EDEDED ;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 145px;
+    width: 250px;
+    padding: 30px;
+}
+
+.list input {
+    width: 30px;
+    height: 30px;
+    background-color: #C2C2C2;
+    border-radius: 4px;
+    color: #404040;
+}
+
+.list label{
+    width: 145px;
+    align-self: center;
+    font:18px Inter,serif;
+}
+
+.cut_line{
+    color: #C2C2C2;
+    text-decoration: line-through;
+}
+
+.nor_line{
+    color:#424242;
+}
+
+
+/* Now CSS for index2.html */
+/* ********* */
+/* ********* */
+
+.page_1a{
+    background-color: #F7F7F7;
+    height: 1368px ;
+    opacity: 60%;
+}
+.page_2{
+    background-color: #000000;
+    height: 1036px;
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    height: 250px;
+    width: 500px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px #67676729;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    top: 184px;
+    left: 29%;
+    z-index: 1;
+}
+
+.top_2{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EDEDED;
+    padding: 20px;
+}
+.top_2 #left_2{
+    font: 22px/26px Inter,serif;
+    /* font-weight: ; */
+    color: #404040;
+}
+.top_2 #right_2{
+    text-decoration: none;
+    color: #858585;
+    font-size: 36px ;
+    margin-top: -10px;
+    rotate: 45deg;
+}
+.input_place{
+    height: 40px;
+    width: 460px;
+    background-color: #F7F7F7;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 10px 14px;
+}
+.button{
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    width: 180px;
+    height: 48px;
+    padding: 14px 40px;
+    background-color: #00A5EC;
+    border-radius: 4px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.disable-link {
+    pointer-events: none;
+}
+
+/* Now CSS for index3.html */
+/* ********* */
+/* ********* */
+
+.page_3{
+    height: 769px;
+    background-color: #f7f7f7;
+}
+
+.nav_3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 36px;
+}
+
+.back_button{
+    display: flex;
+    justify-content: space-between;
+    width: 91px;
+    height: 35px;
+    align-self: center;
+}
+.back_button .image{
+    width: 35px;
+    height: 35px;
+    background-color: #424242;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+}
+.back_button .image img{
+    height: 13px;
+    width: 11px;
+}
+.back_button .back{
+    font: 20px/24px Inter,serif;
+    color: #424242;
+    align-self: center;
+}
+
+.add_new-page_3{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 215px;
+}
+
+.main{
+    border: 1px solid #EDEDED;
+    box-shadow: 0 0 5px 5px #EDEDED;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 500px;
+    height: 338px;
+    margin: auto;
+    margin-top: 51px;
+}
+
+.main .title{
+    text-align: center;
+    font: 20px/24px Inter,serif;
+    color: #00A5EC;
+    padding: 34px 30px;
+    border-bottom: 1px solid #EDEDED ;
+}
+
+@media screen and (max-width:500px) and (min-width:300px) {
+    .page_1, .page_1a, .page_2, .page_3{
+        height: 1282px ;
+        width: auto;
+    }
+    .header{
+        height: 60px;
+    }
+    .header .top{
+        font: bold 20px/29px Inter;
+        position: absolute;
+        top: 16px;
+        left: 12px;
+    }
+    .add_new{
+        display: block;
+        position: static;
+        height: 40px;
+        width: 40px;
+        margin: 20px auto;
+    }
+    .icon{
+        font-size: 40px;
+        height: 40px;
+        width: 40px;
+    }
+    .add_task{
+        display: none;
+    }
+    .content{
+        flex-flow: nowrap column;
+        height: auto;
+        margin: 0px 0px;
+    }
+    .content .box_del{
+        display: none;
+    }
+    .content .box, .main{
+        width: 336px;
+        height: 360px;
+        margin: 0px auto;
+        margin-bottom: 10px ;
+    }
+    .box>.title, .main>.title{
+        font: 18px/21px Inter,serif;
+        padding: 28px 30px;
+    }
+    .list label{
+        font:16px Inter,serif;
+    }
+    
+    /* Now Media Querry for index2.html */
+
+    .container{
+        display: block;
+        /* position: fixed; */
+        width: 340px;
+        top: 16em;
+        /* left: 0px; */
+        left: 10vmax;
+    }
+    .top_2 #left_2{
+        font: 18px/21px Inter;
+    }
+    .input_place{
+        height: 46px;
+        width: 300px;
+    }
+    /* Now Media Querry for index3.html */
+
+    .nav_3{
+        justify-content: flex-start;
+        margin: 20px auto ;
+        width: 100%;
+    }
+    .add_new-page_3{
+        margin-left: 130px;
+        width: auto;
+   
+    }
+}
+
